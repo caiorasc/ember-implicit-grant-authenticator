@@ -1,0 +1,1 @@
+export { default } from 'myaddon/services/implicit-grant-authenticator';
