@@ -1,1 +1,1 @@
-export { default } from 'myaddon/services/implicit-grant-authenticator';
+export { default } from 'ember-implicit-grant-authenticator/services/implicit-grant-authenticator';

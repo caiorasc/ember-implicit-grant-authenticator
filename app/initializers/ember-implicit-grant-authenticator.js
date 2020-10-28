@@ -9,6 +9,6 @@ export function initialize(application) {
 }
 
 export default {
-  name: 'myaddon',
+  name: 'ember-implicit-grant-authenticator',
   initialize
 };
