@@ -1,13 +1,13 @@
 {
   "name": "ember-implicit-grant-authenticator",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/caiorasc/ember-implicit-grant-authenticator",
   "license": "MIT",
-  "author": "",
+  "author": "caiorasc",
   "directories": {
     "doc": "doc",
     "test": "tests"
