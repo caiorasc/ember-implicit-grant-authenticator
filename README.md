@@ -1,7 +1,7 @@
 ember-implicit-grant-authenticator
 ==============================================================================
 
-[Short description of the addon.]
+A [Ember Simple Auth](https://ember-simple-auth.com) addon which implements the Implicit Grant Flow.
 
 
 Compatibility
