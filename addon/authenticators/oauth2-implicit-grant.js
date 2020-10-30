@@ -2,7 +2,7 @@ import OAuth2ImplicitGrant from 'ember-simple-auth/authenticators/oauth2-implici
 import { isPresent } from '@ember/utils';
 
 // Decode JWT token
-const _decode = str => {
+function _decode(str) {
     if (typeof atob === 'function') {
         return atob(str);
     } else if (typeof FastBoot === 'object') {
@@ -15,7 +15,7 @@ const _decode = str => {
     } else {
         throw new Error('Neither atob nor the FastBoot global are avaialble. Unable to decode base64 strings.');
     }
-};
+}
 
 function _parseHashFragments(locationHash) {
     let params = {};

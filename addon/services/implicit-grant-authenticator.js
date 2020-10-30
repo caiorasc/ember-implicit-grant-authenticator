@@ -16,7 +16,7 @@ export default Service.extend({
       nonce
     };
 
-    this.session.store.persist(data);
+    this.get('session.store').persist(data);
 
     const queryUrl = {
       client_id: Configuration.clientId,
